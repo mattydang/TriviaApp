@@ -7,7 +7,7 @@ Trivia App written with React.js library. App allows user to answer a list of ge
 
 The quiz displays one question at a time from the data array. Each question has four options, and the user selects one as the answer.
 
-React was used for the useState() hook, where state variables could be made and changed from original data. Uses React hooks like useState and useRef to manage the quiz state and dynamically update the UI. For example, tracking the current question index, lock state, score, and whether the quiz has ended and updating the styling for correct and wrong answers.
+React was used for the useState() hook, where state variables could be made and changed from original data. Used React hooks like useState() and useRef() to manage the quiz state and dynamically update the UI. For example, tracking the current question index, lock state, score, and whether the quiz has ended and updating the styling for correct and wrong answers.
 
 The app also validate the answer in real time for user by changing the styling of buttons to red or green for wrong/right answer, and locking the state so users cannot change their answers. 
 
